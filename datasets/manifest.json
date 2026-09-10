@@ -1,0 +1,86 @@
+{
+  "format_version": 1,
+  "schema": [
+    "dialogue_id",
+    "turn_id",
+    "speaker",
+    "text",
+    "emotion",
+    "emotion_id",
+    "strategy",
+    "strategy_id",
+    "split"
+  ],
+  "split": {
+    "unit": "dialogue",
+    "seed": 42,
+    "train_dialogues": 346,
+    "validation_dialogues": 39,
+    "method": "Shuffle sorted dialogue IDs, then minimally swap dialogues to cover all training labels."
+  },
+  "statistics": {
+    "dialogues": 385,
+    "utterances": 7906,
+    "persuader_utterances": 3998,
+    "persuadee_utterances": 3908,
+    "emotion_counts": {
+      "sentimental": 79,
+      "afraid": 11,
+      "proud": 123,
+      "trusting": 430,
+      "joyful": 130,
+      "angry": 26,
+      "sad": 76,
+      "jealous": 5,
+      "grateful": 491,
+      "prepared": 20,
+      "embarrassed": 8,
+      "surprised": 82,
+      "annoyed": 21,
+      "lonely": 2,
+      "guilty": 24,
+      "confident": 340,
+      "disappointed": 54,
+      "caring": 1133,
+      "apprehensive": 100,
+      "anxious": 16,
+      "hopeful": 612,
+      "content": 97,
+      "impressed": 118
+    },
+    "strategy_counts": {
+      "no_strategy": 1647,
+      "task-related-inquiry": 116,
+      "credibility-appeal": 535,
+      "logical-appeal": 422,
+      "personal-related-inquiry": 205,
+      "source-related-inquiry": 194,
+      "donation-information": 351,
+      "foot-in-the-door": 131,
+      "emotion-appeal": 188,
+      "self-modeling": 182,
+      "personal-story": 27
+    },
+    "splits": {
+      "train": {
+        "dialogues": 346,
+        "utterances": 7108,
+        "persuader_utterances": 3596
+      },
+      "validation": {
+        "dialogues": 39,
+        "utterances": 798,
+        "persuader_utterances": 402
+      }
+    }
+  },
+  "sha256": {
+    "dialogues.csv": "fd6c1638552f4549adf5959469f72b9e75a43ae748e459f949d29b8f3b845c2b",
+    "train.csv": "982438d33c154e35f7acc3ba095f8b58b6b3848d5c10a4c59ec204a118849ac4",
+    "validation.csv": "17b14942a9fb1162b13daf3dfbbcea0bc32a71752741fa62a0afdd1765406a50",
+    "emotion_counts.csv": "0aff6ec5c96dcc2a0d75dba0ec74aa9ee5e2d57862bc906f7a8d6021bd74a938",
+    "strategy_counts.csv": "55b2124d9de9436db2a440070df55a78ca20332d2e6afb4e4b8a658839a9ae36",
+    "labels.json": "bead1184490ef05f4e9eb76c078becdbf0f113159498d0dc7e41d0e5ea8a709a",
+    "paper_emotion_counts.json": "c15560e0d7b7310736215a880809c172573c2dcf8365d5407807dda9a41fe8a0"
+  }
+}

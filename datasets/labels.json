@@ -1,0 +1,40 @@
+{
+  "emotions": [
+    "sentimental",
+    "afraid",
+    "proud",
+    "trusting",
+    "joyful",
+    "angry",
+    "sad",
+    "jealous",
+    "grateful",
+    "prepared",
+    "embarrassed",
+    "surprised",
+    "annoyed",
+    "lonely",
+    "guilty",
+    "confident",
+    "disappointed",
+    "caring",
+    "apprehensive",
+    "anxious",
+    "hopeful",
+    "content",
+    "impressed"
+  ],
+  "strategies": [
+    "no_strategy",
+    "task-related-inquiry",
+    "credibility-appeal",
+    "logical-appeal",
+    "personal-related-inquiry",
+    "source-related-inquiry",
+    "donation-information",
+    "foot-in-the-door",
+    "emotion-appeal",
+    "self-modeling",
+    "personal-story"
+  ]
+}

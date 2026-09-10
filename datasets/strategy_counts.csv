@@ -1,0 +1,12 @@
+id,label,count,percentage,train,validation
+0,no_strategy,1647,41.1956,1488,159
+1,task-related-inquiry,116,2.9015,102,14
+2,credibility-appeal,535,13.3817,472,63
+3,logical-appeal,422,10.5553,392,30
+4,personal-related-inquiry,205,5.1276,184,21
+5,source-related-inquiry,194,4.8524,173,21
+6,donation-information,351,8.7794,320,31
+7,foot-in-the-door,131,3.2766,112,19
+8,emotion-appeal,188,4.7024,170,18
+9,self-modeling,182,4.5523,157,25
+10,personal-story,27,0.6753,26,1

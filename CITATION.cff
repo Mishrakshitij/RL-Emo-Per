@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this code or dataset, please cite the accompanying paper."
+title: "Empathetic Persuasion: Reinforcing Empathy and Persuasiveness in Dialogue Systems"
+type: software
+version: 1.0.0
+url: "https://github.com/Mishrakshitij/RL-Emo-Per"
+authors:
+  - family-names: Samad
+    given-names: Azlaan Mustafa
+  - family-names: Mishra
+    given-names: Kshitij
+  - family-names: Firdaus
+    given-names: Mauajama
+  - family-names: Ekbal
+    given-names: Asif
+preferred-citation:
+  type: conference-paper
+  title: "Empathetic Persuasion: Reinforcing Empathy and Persuasiveness in Dialogue Systems"
+  authors:
+    - family-names: Samad
+      given-names: Azlaan Mustafa
+    - family-names: Mishra
+      given-names: Kshitij
+    - family-names: Firdaus
+      given-names: Mauajama
+    - family-names: Ekbal
+      given-names: Asif
+  year: 2022
+  doi: 10.18653/v1/2022.findings-naacl.63
+  collection-title: "Findings of the Association for Computational Linguistics: NAACL 2022"
+  start: 844
+  end: 856
